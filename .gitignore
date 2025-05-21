@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# Env files
+.env
+.env.*
+
+# PyTest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# JetBrains IDEs
+.idea/
+
+# macOS
+.DS_Store
+
+# Bin
+msal_cache.bin
+
+tmp
+
+example.py
+
+*.bin
+
+todo.txt
