@@ -39,7 +39,7 @@ class DataverseClient:
                 "~/.tmp/dataverse-rest-api__cache/").expanduser()
             _create_folder_if_missing(storage_path)
             cache_path = os.path.join(
-                storage_path, f"{self.dataverse_url.replace("https://", "").replace("/", "-")}.bin")
+                storage_path, f"{self.dataverse_url.replace('https://', '').replace('/', '-')}.bin")
 
         self.cache_path = cache_path
         self._initialise_auth_context()
